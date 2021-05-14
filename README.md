@@ -1,11 +1,11 @@
 # my_rbpi
  This repository contains simple raspberry pi projects created as part of my learning.
 
-1. Blink (path: blink/simple_blink.py)
+**1. Blink (path: blink/simple_blink.py)**
 
    This code will blink LED connected to GPIO 14
 
-2. Blink CPP Code (path: blink/blink_cpp.cpp)
+**2. C++ blink Code (path: blink/blink_cpp.cpp)**
 
    Blink code done in c++, using wiringPi library.
 
