@@ -10,7 +10,7 @@
    Blink code done in c++, using wiringPi library.
 
    wiringPi pin mapping is as below:
-
+```
     +-----+-----+---------+------+---+---Pi 3B--+---+------+---------+-----+-----+
     | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
     +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
@@ -37,7 +37,8 @@
     +-----+-----+---------+------+---+----++----+---+------+---------+-----+-----+
     | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
     +-----+-----+---------+------+---+---Pi 3B--+---+------+---------+-----+-----+
-
+```
    For compiling code:
-
+```
    g++ blink_cpp.cpp -lwiringPi -o blink
+   ```
